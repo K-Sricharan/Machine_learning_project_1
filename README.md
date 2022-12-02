@@ -42,3 +42,7 @@ git log
 To create version/commit all achanges by git
 ```
 git commit -m "msg"
+```
+To send changes
+```
+git push origin main
