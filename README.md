@@ -47,3 +47,15 @@ git commit -m "msg"
 To send changes
 ```
 git push origin main
+```
+To setup CI/CD pipeline in heroku we need 3 information
+
+1. HEROKU_EMAIL = sricharan.karingula@gmail.com
+2. HEROKU_API_KEY = d94c80ff-8a6a-4bc0-b47f-3dd4fb9678a7
+3. HEROKU_APP_NAME = 
+
+```
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname>
+```
