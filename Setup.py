@@ -4,7 +4,7 @@ from typing import List
 
  #declaring variables for setup functions
 PROJECT_NAME = "housing-predictor"
-version = "0.0.1"
+version = "0.0.3"
 Author = "charan"
 Requirement_file_name = "Requirement.txt"
 
@@ -17,7 +17,7 @@ def get_Requirement_list()->List[str]:
 
     """
     with open(Requirement_file_name) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove("-e .")
 
 setup(
   name = PROJECT_NAME,
